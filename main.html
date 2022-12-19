@@ -12,7 +12,6 @@
     <script type="text/javascript" src="./script.js">
 </script>
 		<main>
-			<section id="job-form">
 				<h1>
 					Job App Form
 				</h1>
@@ -30,17 +29,14 @@
 						<input type="radio" name="gender" value="Female" id="">
 						<br><br>
 						
-						<label for="Laptop-Brands">Laptop Brands: </label>
-							<div id="laptop"></div>
-								<label for="Apple">Apple</label>
-								<input type="checkbox" name="Apple" value="Apple" id="">
-								<label for="Asus">Asus</label>
-								<input type="checkbox" name="Asus" value="Asus" id="">
-								<label for="HP">HP</label>
-								<input type="checkbox" name="HP" value="HP" id="">
-	
-						</div>
-						<br>
+						<label for="Laptop-Brands">Laptop Brand: </label>
+									<select id="laptop" name="laptop">
+									<!-- <option value="none">None</option> -->
+									<option value="Apple">Apple</option>
+									<option value="Asus">Asus</option>
+									<option value="hp">HP</option>
+								  </select>
+						<br><br>
 					<label for="portfolio">Portfolio link -</label>
 					<input type="url" name="Portfolio" id="portfolio">
 					<br><br>
@@ -55,7 +51,6 @@
 					<br><br>
 					<input type="submit" id="submit" value="Submit">
 				</form>
-			</section>
 		</main>
 </body>
 
